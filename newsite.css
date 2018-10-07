@@ -1,0 +1,761 @@
+* {
+
+    box-sizing: border-box;
+      
+
+}
+
+.header {
+
+    text-align: center;
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+    background-color: #F0F0F0;
+    margin: 0 12% 7px 12%;
+    background-image: url(assets/vertical-waves.png);
+
+}
+
+/* Martin Jurado Header */
+h1 {
+
+    color: #ff9999;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 40px;  
+    text-align: center;  
+
+}
+
+/* About Me, Portfolio, Contact Link */
+nav {
+
+    
+    padding-left: 20px;  
+    clear: both;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+           
+}
+
+a {
+
+    text-decoration: none;
+    font-size: 20px;
+    padding: 0 20px 0 0;
+    color: turquoise;
+    font-weight: bold;
+}
+
+a:hover {
+
+    color: lightskyblue;
+}
+
+body {
+
+    background-image: url(assets/concrete_seamless.png);
+    clear: both;
+    
+}
+
+/* Section for About Me */ 
+
+.aboutme {
+
+    
+    border: 1px solid #D3D3D3;
+    padding: 10px 10px 0 10px;
+    background-color: #F0F0F0;
+    margin: 20px 12% 7px 12%;
+}
+/* Section for About Me */ 
+
+
+/* About Me Header */
+
+.titleaboutme {
+
+    margin: 30px 20px 0 20px;
+    color: lightskyblue;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+/* About Me Picture */
+.me {
+
+    height: 400px;
+    width: 230px;
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-right: 35px;
+    padding-bottom: 120px;
+    float: right;
+}
+
+.me:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+/* Icons  */
+
+.linkedin {
+
+    height: 50px;
+    width: 53px;
+    clear: both;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+
+.linkedin:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.instagram {
+
+    height: 50px;
+    width: 40px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+
+}
+
+.instagram:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+.gmail {
+
+    height: 50px;
+    width: 40px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+
+}
+
+.gmail:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+
+}
+
+/* End of Icons */
+
+
+p {
+
+    margin: 30px 20px 30px 20px;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    text-align: justify;
+    color: 	#696969;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.indexfooter {
+
+    clear: both;
+    text-align: center;
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+    background-color: #F0F0F0; 
+    margin: 5% 12% 7px 12%;
+    color: #ff9999;
+    background-image: url(assets/vertical-waves.png);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+
+/* START OF PORTFOLIO.HTML CSS */
+
+.portfolio {
+
+    border: 1px solid #D3D3D3;
+    padding: 10px 10px 0 10px;
+    background-color: #F0F0F0;
+    margin: 20px 12% 7px 12%;
+
+}
+
+/* Portfolio Header */
+
+.titleportfolio {
+
+    margin: 30px 20px 0 20px;
+    color: lightskyblue;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Instagram Picture */
+
+.shanti {
+
+    margin: 30px 20px 60px 20px;
+    height: 410px;
+    width: 300px;
+    z-index: -1;
+}
+
+.shanti:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);   
+}
+
+.instagram1 {
+
+    
+    margin-left: 20px;
+
+}
+
+.link2instagram {
+
+    position: absolute;
+    right: 44%;
+    left: 44%;
+    top: 100%;
+    width: 23.6%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    word-spacing: -5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #4aaaa5
+    
+
+}
+
+/* Facebook Picture */
+
+.jan {
+
+    margin: 30px 20px 60px 20px;
+    height: 410px;
+    width: 300px;
+}
+
+.jan:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);   
+
+}
+
+.link2facebook {
+
+    
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    top: 100%;
+    width: 23.6%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    word-spacing: -5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #4aaaa5
+
+}
+
+.portfoliofooter {
+
+    clear: both;
+    text-align: center;
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+    background-color: #F0F0F0; 
+    margin: 5% 12% 7px 12%;
+    color: #ff9999;
+    background-image: url(assets/vertical-waves.png);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+.strangerthings {
+
+    margin: 20px 20px 60px 20px;
+    height: 240px;
+    width: 300px;
+}
+
+.strangerthings:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);   
+
+}
+
+.simpsons {
+
+    margin: 30px 20px 60px 20px;
+    height: 240px;
+    width: 300px;
+
+}
+
+.simpsons:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);  
+
+}
+
+.link2stranger {
+
+    
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    top: 155%;
+    width: 23.7%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    word-spacing: -5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #4aaaa5
+
+}
+
+.link2simpsons {
+
+    position: absolute;
+    right: 15%;
+    left: 43.8%;
+    top: 155%;
+    width: 23.8%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    word-spacing: -5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #4aaaa5
+
+}
+/* START OF CONTACT.HTML CSS */ 
+
+
+.contact {
+
+    border: 1px solid #D3D3D3;
+    padding: 10px 10px 0 10px;
+    background-color: #F0F0F0;
+    margin: 20px 12% 7px 12%;
+
+}
+
+/* Contact Header */
+
+.titlecontact {
+
+    margin: 30px 20px 0 20px;
+    color: lightskyblue;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.form {
+
+    margin-left: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color:#777777;
+
+}
+
+.nameinput {
+
+    width: 97%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 5px 5px;
+
+}
+
+.formname {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:turquoise;
+    padding: 20px 0 5px 0;
+
+}
+
+.emailinput {
+
+    width: 97%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 5px 5px;
+
+}
+
+.formemail {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:turquoise;
+    padding: 20px 0 5px 0;
+}
+
+.messageinput {
+
+    width: 97%;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    padding: 50px 5px;
+
+}
+
+.formmessage {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color:turquoise;
+    padding: 20px 0 5px 0;
+
+}
+
+.submit {
+
+    border: none;
+    color: white;
+    background-color: #4aaaa5;
+    cursor: pointer;
+    padding: 10px 32px;
+    margin-bottom: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+
+.contactfooter {
+
+    clear: both;
+    text-align: center;
+    border: 1px solid #D3D3D3;
+    padding: 10px;
+    background-color: #F0F0F0; 
+    margin: 5% 12% 7px 12%;
+    color: #ff9999;
+    background-image: url(assets/vertical-waves.png);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* start of index.html @media */ 
+
+@media screen and (max-width: 980px) {
+
+    .aboutme {
+        
+        margin: 2% 20% 20% 2%;
+    
+    }
+
+    .header {
+
+        margin-left: 2%;
+        margin-right: 20%;
+    }
+
+    .indexfooter {
+
+        margin-left: 2%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    .aboutme {
+
+        margin-right: 5%;
+    }
+
+    p {
+        margin-bottom: 5px;
+    }
+
+    .header {
+        margin-right: 5%;
+    }
+
+    .indexfooter {
+
+        margin-right: 5%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .header {
+
+        position: static;
+        margin-right: 2%;
+    }
+
+    .aboutme {
+
+        margin: 2% 13% 0 13%;
+    }
+    
+    .me {
+
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        float: none;
+        padding-bottom: 20px;
+        height: 355px;
+    }
+
+    p {
+
+        clear: both;
+    }
+
+    .smlinks {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: static;
+    }
+
+    .indexfooter {
+
+        margin: 8% 13% 7% 13%; 
+        
+    }
+}
+
+/* end of index.html @media */ 
+
+/* Start of portfolio.html */ 
+
+@media screen and (max-width: 980px) {
+
+    .portfolio {
+
+        margin: 2% 20% 20% 2%;
+    }
+    
+    .link2instagram {
+
+        right: 40%;
+        left: 44%;
+        top: 100%;
+        width: 31%;
+    }
+
+    .link2facebook {
+
+        right: 15%;
+        left: 6%;
+        top: 100%;
+        width: 31.2%;
+        
+    }
+
+    .portfoliofooter {
+
+        margin-left: 2%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .portfolio {
+
+        margin-right: 5%;
+    }
+
+    .shanti {
+
+        height: 350px;
+        width: 250px;
+        margin-right: 10px;
+    }
+
+    .link2facebook {
+
+    
+        right: 15%;
+        left: 7.3%;
+        top: 110%;
+        width: 33.1%;
+        font-size: 33px;
+    }
+    
+    .jan {
+
+        height: 350px;
+        width: 250px;
+    }
+
+    .link2instagram {
+
+    
+        right: 15%;
+        left: 47.8%;
+        width: 23.7%;
+        top: 110%;
+        width: 33.1%;
+        font-size: 33px;
+    }
+    
+    .portfoliofooter {
+
+        margin: 0 5% 5% 2%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+
+    .header {
+
+        position: static;
+        margin: 0 13% 0 13%;
+    }
+
+    .portfolio {
+
+        margin: 2% 13% 0 13%;
+        
+    }
+
+    .shanti {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 10px;
+        height: 355px;
+
+    }   
+
+    .link2facebook {
+
+    
+        right: 15%;
+        left: 30%;
+        top: 110%;
+        width: 40%;
+        font-size: 33px;
+    }
+
+    .jan {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        height: 355px;
+    }
+
+    .link2instagram {
+
+    
+        right: 15%;
+        left: 30%;
+        top: 200%;
+        width: 40%;
+        font-size: 33px;
+    }
+
+    .portfoliofooter {
+    
+        margin: 8% 13% 7% 13%; 
+    }
+}
+
+/* Start of index.html */ 
+
+@media screen and (max-width: 980px) {
+
+    .contact {
+
+        margin: 2% 20% 20% 2%;
+        
+    }
+
+    .contactfooter {
+
+        margin-left: 2%;
+        margin-right: 20%;
+        margin-bottom: 5%;
+        
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+    .contact {
+        
+        margin-right: 5%;
+        
+    }
+
+    .contactfooter {
+
+        margin: 0 5% 5% 2%;
+    }
+
+    .header {
+        
+        margin-right: 5%;
+    }
+
+}
+
+@media screen and (max-width: 640px) {
+
+    .header {
+
+        position: static;
+        margin: 0 13% 0 13%;
+    }
+
+    .contact {
+
+        margin: 2% 13% 0 13%;
+        
+    }
+
+    .contactfooter {
+        
+        margin: 8% 13% 7% 13%; 
+
+    }
+}
