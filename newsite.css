@@ -321,6 +321,26 @@ p {
 
 }
 
+.friends {
+    margin: 20px 20px 60px 20px;
+    height: 240px;
+    width: 300px;   
+}
+
+.friends:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);  
+
+}
+
+.simpsons:hover {
+
+    opacity: 0.5;
+    filter: alpha(opacity=50);  
+
+}
+
 .link2stranger {
 
     
@@ -355,6 +375,24 @@ p {
     background-color: #4aaaa5
 
 }
+
+.link2friends {
+
+    position: absolute;
+    right: 15%;
+    left: 15%;
+    top: 220%;
+    width: 23.7%;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    word-spacing: -5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: #4aaaa5
+
+}
+
 /* START OF CONTACT.HTML CSS */ 
 
 
